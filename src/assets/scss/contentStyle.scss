@@ -1,0 +1,33 @@
+.banner{
+    height: 150px; 
+    object-fit: none;
+}
+
+.active{
+    background: #882738;
+}
+
+.rounded{
+    border-radius: 10px !important;
+}
+
+.center-search{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.center-navbar{
+    padding-right: 14%;
+    padding-left: 14%;
+}
+
+.navbar-height{
+    height: 65px;
+    @media only screen and (max-width: 992px) {
+        height: auto;
+    }
+}
+
+.to-center{
+    vertical-align: -webkit-baseline-middle;
+}

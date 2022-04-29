@@ -1,0 +1,27 @@
+.header-color {
+    background: #E23F59 !important
+}
+
+.input-jobs {
+    border-radius: 50px !important;
+
+    @media only screen and (max-width: 1400px) {
+        min-width: 250px;
+    }
+}
+
+.input-location {
+    border-radius: 50px !important;
+
+    @media only screen and (max-width: 1400px) {
+        min-width: 250px;
+    }
+}
+
+.input-salary {
+    border-radius: 50px !important;
+
+    @media only screen and (max-width: 1400px) {
+        min-width: 250px;
+    }
+}

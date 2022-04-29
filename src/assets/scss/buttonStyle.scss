@@ -1,0 +1,8 @@
+.button-search{
+    border-radius: 50px !important;
+    min-width: 250px;
+    background: #E23F59;
+    @media only screen and (max-width: 1400px) {
+        width: 300px;
+    }
+}
