@@ -27,7 +27,9 @@ export default createStore({
           commit("SET_IS_DATA", data.data);
         })
         .catch((err) => {
-          console.log(err);
+          if(err.response.data.code){
+            commit("SET_IS_DATA", []);
+          }
         });
     },
 
@@ -70,7 +72,6 @@ export default createStore({
         },
       })
         .then(({ data }) => {
-          console.log(data)
           commit("SET_IS_DATA", data.data);
         })
         .catch((err) => {
@@ -96,7 +97,6 @@ export default createStore({
         },
       })
         .then(({ data }) => {
-          console.log(data)
           commit("SET_IS_DATA", data.data);
         })
         .catch((err) => {
